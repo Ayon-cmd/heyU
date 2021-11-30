@@ -1,0 +1,823 @@
+@media(max-width: 1400px) {
+    .custom-container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .image-down-ms {
+       height: auto;
+       width: 51%;
+    }
+
+    .message-image {
+        width: 50%;
+    } 
+
+    .message-image2 {
+        width: 51%;
+    }
+
+    .image-up-ms{
+        height: auto;
+        width: 51%;
+    }
+
+    .image-down-ks {
+        height: auto;
+        width: 51%;
+        left: 11.6%;
+    }
+
+    .image-up-ks {
+        height: auto;
+        width: 51%;
+        left: 44.3%;
+    }
+
+    .banner .title {
+        font-size: 65px;
+        width: 55%;
+    }
+
+    .banner-info {
+        margin-left: 0px;
+    }
+
+    header {
+        height: 860px;
+    }
+    
+    .heading-style {
+        font-size: 50px;
+    }
+
+    .heading-style::after {
+        margin-top: 40px;
+    }
+    .subscribe-section .heading-style::after {
+        margin-top: 48px;
+    }
+    
+    .message-section {
+        height: 600px;
+    }
+
+    .icon1 {
+        margin-left: 30px;
+    }
+
+    .icon3 {
+        height: 44px;
+        margin-right: 30px;
+    }
+
+    .icon4 {
+        margin-right: 20px;
+    }
+
+    .feedback-info {
+        margin: 74px 1px;
+    }
+
+    .feedback {
+        width: 296px;
+    }
+
+    .feedback-section {
+        height: 650px;
+        background-color: #ffff;
+    }   
+}
+
+@media(max-width: 1200px) {
+    .custom-container {
+        width: 900px;
+        margin: 0 auto;
+        transition: 0.8s;
+     }
+
+     .banner .title {
+        font-size: 56px;
+        width: 59%;
+        margin: 32px auto 20px 0;
+    }
+
+    .banner .subtitle {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .banner img {
+        height: 678px;
+        transition: .3s;
+    }
+
+    header{
+        height: 715px;
+    }
+
+    .heading-style {
+        font-size: 45px;
+    }
+
+    .heading-style::after {
+        margin-top: 36px;
+        height: 7px;
+        width: 7px;
+    }
+
+    .image-down-ms {
+       width: 60%;
+       left: 40%;
+    }
+
+    .image-up-ms {
+        width: 60%;
+        left: 1%;
+     }
+
+     .footer ul li a { 
+         font-size: 16px;
+     }
+
+     .image-down-ks {
+        width: 60%;
+        left: 4%;
+        top: 27%;
+    }
+
+    .image-up-ks{
+        width: 60%;
+    }
+
+     .message-image {
+        width: 45%;
+    }
+
+    .message-desc {
+        width: 46%;
+    }
+    
+    .message-desc2 {
+        width: 46%;
+    }
+    
+    .keep-section {
+        height: 800px;
+        padding: 0px 10px 18px 10px;
+    }
+   
+    .icon1 {
+        height: 34px;
+        margin-left: 18px;
+    }
+
+    .icon3 {
+        height: 34px;
+        margin-right: 18px;
+    }
+
+    .icon4 {
+        height: 34px;
+        margin-right: 11px;
+        margin-left: -5px;
+    }
+
+    .main-convarsation {
+        width: 293px;
+        margin-top: unset;
+    }
+
+    .main-convarsation2 {
+        width: 308px;
+        margin-top: unset;
+    }
+
+    .convar-dsc {
+        font-size: 15px;
+    }
+
+    .main-phonne {
+        width: 295px;
+    }
+
+    .main-iphone {
+       width: 33%;
+       margin-top: 30px;
+    }
+
+    .conversation-section {
+        height: 355px;
+    }
+
+    .app-info {
+        font-size: 55px;
+    }
+
+    .subscribe-info .heading-style {
+        font-size: 55px;
+    }
+
+    .feedback {
+        width: 92%;
+        padding: 3px 10px;
+        height: auto;
+    }
+
+    .feedback-info {
+        margin: 74px 7px;
+    }
+    
+    h4 {
+        margin-top: 0px;
+    }
+
+    .feedback-section .heading-style {
+        margin-top: 47px;
+    }
+
+    .feedback-section {
+        height: 590px;
+    }
+}
+
+@media(max-width: 991px) {
+    .custom-container {
+        width: 570px;
+        margin: 0 auto;
+        transition: 0.8s;  
+     }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-info {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .banner .title {
+        font-size: 45px;
+        width: 100%;
+        margin: 4px auto 20px 0;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .banner-img {
+        margin: 0 auto;
+    }
+
+    .main-convarsation {
+        width: 340px;
+    }
+
+    header {
+        height: 980px;
+    }
+
+    .main-iphone {
+        width: 53%;
+    }
+
+    .banner button {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    nav ul li:not(:last-child) {
+        margin-right: 48px;
+    }
+
+    .message-section {
+        flex-direction: column;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .keep-section {
+        flex-direction: column;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .image-down-ms {
+        width: 51%;
+        left: 42%;
+    }
+
+    .image-up-ms {
+        width: 51%;
+        left: 7%; 
+    }
+
+    .image-down-ks {
+        width: 51%;
+        left: 8%;
+    }
+
+    .image-up-ks {
+        width: 51%; 
+        left: 42.3%;
+    }
+    
+    .message-image {
+        width: 100%;
+    }
+
+    .main-convarsation2 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .convar-dsc {
+        font-size: 17px;
+    }
+
+    .icon1 {
+        height: 48px;
+    }
+
+    .icon3 {
+        height: 48px;
+    }
+
+    .icon4 {
+        height: 40px; 
+    }
+
+    .message-image {
+        margin-bottom: 5%;
+    }
+
+    .message-image2 {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .subcribe-desc {
+        font-size: 17px;
+        margin-top: 18px;
+    }
+
+    .subscribe-section {
+        height: 332px;
+    }
+
+    header{
+        margin-bottom: 75px;
+    }
+
+    .message-section {
+        height: 911px;
+    }
+   
+    .message-desc {
+        width: 100%;
+        text-align: center;
+    }
+
+    .message-desc2 {
+        width: 100%;
+        text-align: center;
+        line-height: 25px;
+        padding: 0px 10px 15px 10px;
+    }
+
+    .app-section {
+        text-align: center;
+        padding: 40px 15px 80px 15px;
+        height: unset;
+        margin-top: 0px;
+    } 
+
+    .ap-btn {
+        margin-top: 0px;
+    }
+
+    .keep-section {
+        height: 1000px;
+    }
+    
+    .keep-item {
+        flex-direction: column;
+    }
+
+    .message-image {
+        margin-bottom: 20%;
+    }
+
+    .feedback-main {
+        flex-direction: column;
+        margin: 30px 0px;
+     }
+
+     .feedback-section {
+        padding: 20px 10px 10px 10px;
+        height: 1150px;
+     }
+
+     .feedback {
+         width: 388px;
+         height: auto;
+         padding: 3px 25px;
+     }
+
+     .feedback-info {
+        margin: 10px 2px 15px 10px;
+    }
+     
+    .convarsation-area {
+         flex-direction: column;
+     }
+
+    .subscribe-info .heading-style {
+        font-size: 45px;
+    }
+
+    .feedback-section .heading-style {
+        margin-top: 45px;
+    }
+
+    .heading-style {
+        font-size: 35px;
+    }
+
+    .heading-style::after {
+        margin-top: 26px;
+    }
+
+    .keep-item .heading-style::after {
+        margin-top: 18px;
+    }
+
+    .subscribe-btn [type="text"] {
+        padding: 15px 5px;
+        width: 233px;
+        padding-left: 29px;
+    }
+
+    .sub-btn {
+        margin-left: -60px;
+        padding: 14.5px 36.5px;
+    }
+
+    .footer ul {
+        padding: 0;
+    }
+
+    .change {
+        margin-right: 0px;
+    }
+
+    .footer ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .subscribe-info .heading-style::after {
+        margin-top: 38px;
+    }
+
+    .footer ul li a {
+        font-size: 16px;
+    }
+
+    .app-info {
+        font-size: 45px;
+        text-transform: capitalize;
+    }
+
+    .app-info::after {
+        margin-top: 38px;
+    }
+        
+    .change-language {
+        padding: 9px 16px;
+        margin-right: 25px;
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .desc-sub2 {
+        margin-top: 25px;
+    }
+
+    .subs-paragraph {
+        width: 73%;
+        margin: 15px auto;
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .conversation-section {
+        height: 1250px;
+        padding: 40px 0px 100px 0px;
+    }
+}
+
+@media(max-width: 600px) {
+
+    .custom-container {
+        width: 350px;
+        margin: 0 auto;
+        transition: 0.8s;
+     }
+
+     .banner .title {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    .banner .subtitle {
+        font-size: 18px;
+    }
+
+    .banner button {
+        font-size: 17px;
+    }
+
+    header{
+        height: 838px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 25px 0px 0px 0px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    .banner img {
+        height: 510px;
+    }
+
+    nav a {
+        font-size: 17px;
+    }
+
+    .message-section {
+        height: unset;
+        padding: 15px 15px 0px 15px;
+    }
+
+    .image-down-ks{ 
+        left: 7%;
+    }
+
+    .image-down-ms{ 
+        top: 16%;
+    }
+    .message-image2 { 
+        margin-top: 10%;
+    }
+
+    .image-up-ks {
+        left: 43%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .feedback {
+        width: 310px;
+        height: auto;
+    }
+
+    .convar-dsc {
+        font-size: 15px;
+    }
+
+    .message-image {
+        margin-bottom: 5%;
+    }
+   
+    .subscribe-info .heading-style::after {
+        margin-top: 28px;
+    }
+
+    .message-desc {
+        margin-top: 0px;
+    }
+
+    .desc-sub2 {
+        font-size: 16px;
+    }
+
+    .app-info {
+        font-size: 35px;
+    }
+
+    .keep-section {
+        height: 735px;
+    }
+
+    .heading-style {
+        font-size: 30px;
+    }
+
+    .desc-sub {
+        font-size: 15px;
+    }
+
+    .subcribe-desc {
+       line-height: 25px;
+    }
+
+    .subscribe-info .heading-style {
+        font-size: 35px;
+    }
+   
+    .subscribe-btn [type="text"] {
+        width: 200px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .subscribe-info {
+        margin-top: 0;
+    }
+
+    .subscribe-section {
+       padding: 20px 10px 15px 10px
+    }
+
+    .app-info::after {
+        margin-top: 28px;
+    }
+
+    .icon1 {
+        height: 35px;
+    }
+
+    .icon3 {
+        height: 35px;
+    }
+
+    .icon4 {
+        height: 35px;
+    }
+
+    .sub-btn {
+        font-size: 16px;
+        padding: 14.5px 25.5px;
+    }
+
+    .conversation-section {
+        height: 1195px;
+    }
+
+    .subscribe-btn {
+        margin-top: 11%;
+    }
+
+    .ap-btn {
+        padding: 5px 26px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .feedback-section .heading-style {
+        margin-top: 15px;
+    }
+
+    .change-language {
+        margin-right: 0px;
+    }
+
+    .convarsation-area {
+        height: auto;
+    }
+
+    .main-iphone {
+        width: 85%;
+    }
+
+    .convarsation {
+        margin-bottom: 10px;
+    }
+
+    .message-image {
+        height: 400px;
+    }
+
+    .main-convarsation {
+        width: 293px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .main-convarsation2 {
+        width: 293px;
+    }
+
+    .footer ul li:not(:last-child) {
+        margin-right: 16px;
+    }
+    
+    .footer {
+        padding: 0px 15px 20px 15px;
+    }
+ }
+
+@media(max-width: 360px) {
+
+    .custom-container {
+        width: 95%;
+        margin: 0 auto;
+        transition: 0.8s;
+    }
+
+    .banner .title {
+        font-size: 22px;
+    }
+
+    .banner .subtitle {
+        font-size: 16px;
+    }
+
+    nav ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .feedback-section .heading-style {
+        margin-top: 10px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .feedback {
+        width: 257px;
+    }
+
+    .desc-sub {
+        margin-top: 16px;
+    }
+
+    .desc-sub2 {
+        margin-top: 18px;
+    }
+
+    .feedback-section {
+        height: 1250px;
+    }
+
+    .app-info {
+        font-size: 30px;
+    }
+
+    .footer ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .subscribe-btn [type="text"] {
+        width: 150px;
+        font-size: 13px;
+    }
+
+    .sub-btn {
+        font-size: 13px;
+        padding: 14.5px 15px;
+        margin-left: -45px;
+    }
+
+    .footer ul li a {
+        font-size: 13px;
+    }
+
+    .subs-paragraph {
+        width: 100%;
+    }
+
+    .message-section {
+       padding: unset;
+    }
+
+    .change-language {
+        font-size: 15px;
+    }
+    .message-desc2 {
+        
+        height: 205px;
+    }
+    .message-image {
+        height: 365px;
+    }
+    .image-up-ks {
+      
+        top: 22%;
+    }
+}
+
+/* End Media Query  */
+
+
